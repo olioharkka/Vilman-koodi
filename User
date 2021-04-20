@@ -1,0 +1,29 @@
+package com.example.loginregister;
+
+public class User {
+    String username;
+    String email;
+    String password;
+    int height;
+    int age;
+    String name;
+
+    public User( String username, String password,String email,String name, int age, int height ) {
+        this.username=username;
+        this.password=password;
+        this.email=email;
+        this.name=name;
+        this.height=height;
+        this.age=age;
+
+    }
+
+    public User(String username, String password) {
+        this.username = username;
+        this.password = password;
+        this.email="";
+        this.height =-1;
+        this.age =-1;
+        this.name= "";
+    }
+}
